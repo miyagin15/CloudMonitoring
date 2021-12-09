@@ -35,5 +35,5 @@ def search(api,s):
 
 if __name__ == "__main__":
     api=twitter_api()
-    s="AWS 死んだ exclude:retweets"
+    s="オンライン選挙 exclude:retweets"
     search(api,s)
