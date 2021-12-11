@@ -1,6 +1,12 @@
 # TwitterSearch
 
-## 仮想環境を作成
+## fastTextで分類したときのコード
+
+[AI_learniing_text.ipynb](https://github.com/miyagin15/TwitterSearch/blob/main/AI_learniing_text.ipynb)
+
+
+
+## twitterAPiを使用するための仮想環境を作成
 ```
 pip install -r requirements.txt
 source venv/bin/activate
@@ -14,7 +20,9 @@ envファイルに以下を設定する
 * ACCESS_TOKEN
 * ACCESS_TOKEN_SECRET
 
-## 実行
+## twitterAPiを使用してsearch
 ```
 python test.py
 ```
+
+
