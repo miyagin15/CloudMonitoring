@@ -6,7 +6,7 @@
 
 
 
-## twitterAPiを使用するための仮想環境を作成
+## TwitterAPI を使用するための仮想環境を作成
 ```
 pip install -r requirements.txt
 source venv/bin/activate
@@ -20,7 +20,7 @@ envファイルに以下を設定する
 * ACCESS_TOKEN
 * ACCESS_TOKEN_SECRET
 
-## twitterAPiを使用してsearch
+## TwitterAPIを使用してsearch
 ```
 python test.py
 ```
